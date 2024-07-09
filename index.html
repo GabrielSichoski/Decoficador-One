@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decoficador-One</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img class="logo" src="assets/LogoS.svg" alt="logo">
+    </header>
+    <main>
+        <section class="sessao1">
+            <div class="caixatexto">
+                <textarea placeholder="Digite seu texto" class="caixatexto_escrever"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="assets/alerta.svg" alt="alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="caixabotoes">
+                <input type="button" class="btn-codificar" value="Codificar">
+                <input type="button" class="btn-descodificar" value="Descodificar">
+            </div>
+        </section>
+        <section class="sessao2">
+            <div class="caixafigura">
+                <img src="assets/figura.png" alt="figura" class="figura">
+            </div>
+            <div class="caixaresposta">
+                <h3>Nenhuma mensagem<br>Encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div class="copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="caixa-resultado">
+                <p class="resultado"></p>
+            </div>
+        </section>
+        
+    </main>
+   
+    <script src="script.js"></script>
+</body>
+</html>
